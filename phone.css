@@ -1,0 +1,62 @@
+@media (max-width:900px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .nav-right img {
+        display: none;
+    }
+
+    .nav-right .channel-logo {
+        display: block;
+    }
+
+    .container {
+        padding-left: 0;
+    }
+
+    .nav-left .logo {
+        width: 100px;
+    }
+
+    .nav-mid {
+        margin-left: 2rem;
+    }
+
+    .nav-mid .search-box input {
+        width: 100%;
+    }
+
+    .nav-mid .mic {
+        display: none;
+    }
+
+}
+
+@media (max-width:900px) {
+    .video-play {
+        flex-basis: 100%;
+    }
+
+    .right-sidebar {
+        flex-basis: 100%;
+
+    }
+
+    .video-discription {
+        padding: 0;
+    }
+    .video-play-info div {
+        margin-top: 2%;
+    }
+    .old-comment p{
+        text-align: justify;
+    }
+    .play-container{
+        padding: 2%;
+    }
+}
